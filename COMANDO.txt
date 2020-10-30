@@ -22,7 +22,7 @@ Crear una rama
 Acceder a una rama 
 >git checkout test
 
-Unir la informacion de dos ramas
+Unir la informacion de dos ramas, se tiene que utilizar en la rama que quiero los cambios finales
 >git merge
 
 Camparar dos tag de mismo archivo
