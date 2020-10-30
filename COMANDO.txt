@@ -27,3 +27,10 @@ Unir la informacion de dos ramas
 
 Camparar dos tag de mismo archivo
 >git diff 5f30833f5c1a73996bb29dcf7664de4cb89a891a 9dd0f385743f1f2d428d8f0a0b7dc5f8cbf392a4
+
+Permite volver a un commit en especifico
+>git reset 5f30833f5c1a73996bb29dcf7664de4cb89a891a --hard
+
+
+Primete traer una version anterior de uan archivo 
+git checkout 5f30833f5c1a73996bb29dcf7664de4cb89a891a archivo_nuevo.txt
