@@ -1,0 +1,29 @@
+>Inciar una proyecto
+git init
+
+>Ver el estado de los archivos
+git status 
+
+>Agregar un archivo o un listado de rhviso al staging 
+git add nombre_archivo
+
+>Quitar el archivo del staging
+git rm --cache nombre_archivo
+
+Agregar el archivo al master o la rama indicada
+>git commit  archivo_nuevo.tx -m 'Comentario'
+
+Ver el historial de una archivo
+>git log nombre_archivo.txt
+
+Crear una rama
+>git branch test
+
+Acceder a una rama 
+>git checkout test
+
+Unir la informacion de dos ramas
+>git merge
+
+Camparar dos tag de mismo archivo
+>git diff 5f30833f5c1a73996bb29dcf7664de4cb89a891a 9dd0f385743f1f2d428d8f0a0b7dc5f8cbf392a4
