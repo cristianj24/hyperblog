@@ -33,4 +33,7 @@ Permite volver a un commit en especifico
 
 
 Primete traer una version anterior de uan archivo 
-git checkout 5f30833f5c1a73996bb29dcf7664de4cb89a891a archivo_nuevo.txt
+>git checkout 5f30833f5c1a73996bb29dcf7664de4cb89a891a archivo_nuevo.txt
+
+Vamos crear un origen remoto de nuestros archivos
+>git remote add origin http://192.168.50.127:5000/dmo/taller_01.git
