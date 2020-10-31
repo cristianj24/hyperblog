@@ -37,3 +37,6 @@ Primete traer una version anterior de uan archivo
 
 Vamos crear un origen remoto de nuestros archivos
 >git remote add origin http://192.168.50.127:5000/dmo/taller_01.git
+
+Indica  a que ruta remota estoy apuntando
+>git remote -v
