@@ -43,3 +43,6 @@ Setear la url remoto a la que se quiere apuntar
 
 Indica  a que ruta remota estoy apuntando
 >git remote -v
+
+Traerme la ultima verison de directorio remoto
+>git pull origin master
