@@ -1,0 +1,10 @@
+Generar una llave
+>ssh-keygen -t rsa -b 4096 -C "cristian.jho24@gmail.com"
+
+Para correr el proceso SSH
+>eval $(ssh-agent -s)
+
+Agregar mi llave publica y provida
+>ssh-add ~/.ssh/id_rsa
+
+Ingresar a git y agrego la llave publica
