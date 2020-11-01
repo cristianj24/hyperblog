@@ -47,5 +47,5 @@ Indica  a que ruta remota estoy apuntando
 Traerme la ultima verison de directorio remoto
 >git pull origin master
 
-Traerme la ultima verison de directorio remoto
+Subir los cambios al repositorio remoto
 >git push origin master
