@@ -47,7 +47,7 @@ Indica  a que ruta remota estoy apuntando
 Traerme la ultima verison de directorio remoto
 >git pull origin master
 
-Subir los cambios al repositorio remoto
+Subir los cambios al repositorio remoto o enviar la rama
 >git push origin master
 
 Ver todo el historial de mi commit de forma grafica
@@ -62,3 +62,9 @@ Enviar los tasg a repositorio remoto
 
 Eliminar un tag
 >git tag -d v01
+
+Ver el historial de las ramas
+>git show-branch --all
+
+Ver todo la historia de forma grafica
+>gitk
